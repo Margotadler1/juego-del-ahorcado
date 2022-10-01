@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(img/fondo\ castillo.jpg);
+    background-size: cover;
+}
+
+header {
+    margin: 1.5% 0 0 0;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 10%;
+}
+
+h1 {
+    font-family: 'Bubblegum Sans', cursive;
+    color: #440258c5;
+    font-size: 40px;
+    letter-spacing: 3px;
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.624);
+}
+
+.contenedor {
+    width: 50%;
+    height: auto;
+    padding: 5px;
+    margin: auto;
+}
+
+.div-imagen {
+    display: flex;
+    justify-content: center;
+}
+
+#imagen-muñeco {
+    width: 30%;
+    margin-right: 4.5%;
+}
+
+#palabra {
+    height: 2.5em;
+    display: flex;
+    justify-content: center;
+}
+
+#palabra span {
+    vertical-align: botton;
+    font-size: 2em;
+    border-bottom: 3px solid black;
+    text-align: center;
+    display: inline-block;
+    margin-right: 2%;
+    margin-left: 2%;
+    width: 6%;
+    font-family: 'Bubblegum Sans', cursive;
+}
+
+#resultado {
+    margin-top: 5%;
+    font-size: 18px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    height: 2.5em;
+    font-family: 'Bubblegum Sans', cursive;
+}
+
+.div-jugar {
+    display: flex;
+    justify-content: center;
+}
+
+#jugar {
+    width: 30%;
+    height: 31px;
+    text-align: center;
+    font-size: 14px;
+    background-image: url(img/stone\ boton\ grande.png);
+    background-size: 100%;
+    border-radius: 9px;
+    border-color: rgba(0, 0, 0, 0.878);
+    cursor: pointer;
+    font-family: 'Bubblegum Sans', cursive;
+    box-shadow: 0 0 30px #440258, 0 0 15px #440258, 0 0 30px #440258;
+}
+
+#jugar:hover {
+    transition: 0.5s;
+    transform: scale(0.9);
+    box-shadow: 0 0 25px #30013f, 0 0 10px #30013f, 0 0 25px #30013f;
+}
+
+.letras {
+    margin-top: 6%;
+    margin-left: 0.5%;
+    display: inline-block;
+    justify-content: center;
+    width: 100%;
+}
+
+.letras button {
+    width: 8%;
+    height: 28px;
+    margin-bottom: 3px;
+    font-size: 13px;
+    font-family: 'Bubblegum Sans', cursive;
+    border-color: rgb(0, 0, 0);
+    background-image: url(img/stone.jpg);
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 0 15px #440258, 0 0 15px #440258, 0 0 15px #440258;
+}
+
+.letras button:hover {
+    transform: scale(0.9);
+    transition: 0.3s;
+    box-shadow: 0 0 10px #30013f, 0 0 10px #30013f, 0 0 10px #30013f;
+}
